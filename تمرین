@@ -1,0 +1,44 @@
+#تمرین اول
+n=int(input("enter your score"))
+if n>=90:
+ print("عالی")
+elif 70<n<89:
+ print("خوب")
+elif 50<n<69:
+ print("قابل قبول")
+elif 50>n:
+ print("مردود")
+#تمرین دوم
+while True:
+ m=input('enter your character')
+ if m=='a':
+    print("Yes")
+ elif  m=='e':
+    print("Yes")
+ elif m=='o':
+    print("Yes")
+ elif m=='u':
+    print("Yes")
+ elif m=='i':
+    print("Yes")
+
+ else:
+    print("No")
+#تمرین سوم
+while True:
+    n=int(input('enter your number'))
+    if n%2==0:
+      print("even")
+    elif n%2==1:
+      print("odd")
+#تمرین چهارم
+while True:
+ a=int(input('enter your first number'))
+ b=int(input('enter your second number'))
+ c=int(input('enter your third number'))
+ if a**2==b**2+c**2 or b**2==a**2+c**2 or c**2==a**2+b**2:
+    print("مثلث قائم الزاويه")
+ else:
+    print("خطا")
+
+
